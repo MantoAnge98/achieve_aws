@@ -13,6 +13,8 @@
 !/log/.keep
 !/tmp/.keep
 
+/config/deploy*
+/config/unicorn*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
