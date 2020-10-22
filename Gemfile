@@ -58,5 +58,15 @@ group :test do
   gem 'chromedriver-helper'
 end
 
+#Aws Gem
+gem 'fog-aws'
+
+#Upload image
+gem 'carrierwave', '~> 2.0'
+gem 'mini_magick'
+
+gem 'dotenv-rails' ## Added 
+ ##abridgement
+ 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
